@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion : "2010-09-09"
+Description : This is sample cloud formation template
+Resources:    
+    MyS3Bucket2:
+        Type : AWS::S3::Bucket
+        Properties :
+            BucketName : shreyas3testbucket
+            
